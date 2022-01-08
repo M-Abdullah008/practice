@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<header>
+    <a href="index.html" class="header-brand">caramel</a>
+    <nav>
+        <ul>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="#" class="h-cases">Cases</a>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card shadow" style="width: 15rem;">
+                    <div class="inner">
+                        <img class="card-img-top" src="./store/img1.jpg" alt="Card image cap">
+                    </div>
+               
+            <div class="card-body text-center">
+                <h5 class="card-title">ATULAN 29th</h5>
+                <p class="card-text">We are studying Computer Science in BGCTUB. Above there is our batch's memorable image. At present we are far away from each other because of Corona pandemic. Hope that we can get rid of this critical situation..</p>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Click for details</button>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow" style="width: 15rem;">
+                    <div class="inner">
+                        <img class="card-img-top" src="./store/img2.jpg" alt="Card image cap">
+                    </div>
+                    
+                 <div class="card-body text-center">
+                     <h5 class="card-title">ATULAN 29th</h5>
+                     <p class="card-text">We are studying Computer Science in BGCTUB. Above there is our batch's memorable image. At present we are far away from each other because of Corona pandemic. Hope that we can get rid of this critical situation..</p>
+                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Click for details</button>
+                 </div>
+                 </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow" style="width: 15rem;">
+                    <div class="inner">
+                        <img class="card-img-top" src="./store/img3.jpg" alt="Card image cap">
+                    </div>
+                    
+                 <div class="card-body text-center">
+                     <h5 class="card-title">GRAPHICS DESIGN</h5>
+                     <p class="card-text">I have an aim that someday I will become a professional Graphics designer. I love this field and want to work with that. I like to work with Adobe Illustrator, Photoshop etc.</p>
+                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">Click for details</button>
+
+                     <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">GRAPHICS DESIGN</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    I have an aim that someday I will become a professional Graphics designer. I love this field and want to work with that. I like to work with Adobe Illustrator, Photoshop etc.
+                                </div>
+                                <div class="modal-footer">
+                                    
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <form class="form-main">
+        <div class="form-group">
+            <label for="email">Email address:</label>
+            <input pattern=".+@.+\..+" type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ATULAN 29th</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    We are studying Computer Science in BGCTUB. Above there is our batch's memorable image. At present we are far away from each other because of Corona pandemic. Hope that we can get rid of this critical situation..
+
+                    Good luck!
+                </div>
+                <div class="modal-footer">
+                    
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
