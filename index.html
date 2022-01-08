@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="max-width=device-max-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     
@@ -23,10 +23,13 @@
     </nav>
 </header>
 <body>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-4">
-                <div class="card shadow" style="width: 15rem;">
+    <div class="container" style="padding-bottom: 12px;padding-top: 12px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+">
+        <div class="row">
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                <div class="card shadow"  style="max-width: 22.25rem;">
                     <div class="inner">
                         <img class="card-img-top" src="./store/img1.jpg" alt="Card image cap">
                     </div>
@@ -38,8 +41,8 @@
             </div>
             </div>
             </div>
-            <div class="col-md-4">
-                <div class="card shadow" style="width: 15rem;">
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                <div class="card shadow" style="max-width: 22.25rem;">
                     <div class="inner">
                         <img class="card-img-top" src="./store/img2.jpg" alt="Card image cap">
                     </div>
@@ -51,8 +54,8 @@
                  </div>
                  </div>
             </div>
-            <div class="col-md-4">
-                <div class="card shadow" style="width: 15rem;">
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                <div class="card shadow" style="max-width: 22.25rem;">
                     <div class="inner">
                         <img class="card-img-top" src="./store/img3.jpg" alt="Card image cap">
                     </div>
@@ -86,7 +89,8 @@
             </div>
         </div>
     </div>
-    <form class="form-main">
+    <div class="form_section" style="display: flex; align-items: center; justify-content: center;">
+    <form class="form-main col-md-6 d-flex flex-column justify-content-center">
         <div class="form-group">
             <label for="email">Email address:</label>
             <input pattern=".+@.+\..+" type="email" class="form-control" id="email">
@@ -97,6 +101,7 @@
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+</div>
     
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
